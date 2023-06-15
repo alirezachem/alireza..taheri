@@ -1,0 +1,262 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="bazyar.dxpx" creator="DX10" version="10.0.6.0">
+<designInfo studyType="ResponseSurface" studySubType="Randomized" designType="BoxBehnken" noOfRuns="17" noOfFactors="3" noOfResponses="1">
+<designNotes>This data file created by Design-Expert 10</designNotes>
+</designInfo>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="absorbant" unit="mg" type="Numeric">
+<numeric format="General" low="20" high="100" stdDev="0"/>
+</factor>
+<factor id="B" name="pH" unit="" type="Numeric">
+<numeric format="General" low="5" high="9" stdDev="0"/>
+</factor>
+<factor id="C" name="incubation time" unit="min" type="Numeric">
+<numeric format="General" low="5" high="55" stdDev="0"/>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="Recovery" unit="" type="Normal" format="General" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="2.40545948061353"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="stdorder">
+<width>35</width>
+</column>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>72</width>
+</column>
+<column id="B" type="factor">
+<width>72</width>
+</column>
+<column id="C" type="factor">
+<width>72</width>
+</column>
+<column id="1" type="response">
+<width>72</width>
+</column>
+</visibleColumns>
+</designLayout>
+<graphSettings>
+<graphArea name="Evaluation">
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+<graphArea name="GraphColumns">
+<colorBy type="runOrder"/>
+</graphArea>
+<graphArea name="EffectsNoRestriction"/>
+<graphArea name="Diagnostics" index="0">
+<colorBy type="response" index="0"/>
+</graphArea>
+<graphArea name="Model" index="0">
+<contours type="response" index="0" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>50</contourLevel>
+<contourLevel>60</contourLevel>
+<contourLevel>70</contourLevel>
+<contourLevel>80</contourLevel>
+<contourLevel>90</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">1</axis>
+<axis index="1">2</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+<graphArea name="NumericalOptimization" index="0">
+<axis type="desirability">
+<low>0</low>
+<high>1</high>
+<format>General</format>
+<ticks>6</ticks>
+</axis>
+<contours type="desirability" index="-1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>0</contourLevel>
+<contourLevel>0.2</contourLevel>
+<contourLevel>0.4</contourLevel>
+<contourLevel>0.6</contourLevel>
+<contourLevel>0.8</contourLevel>
+</contours>
+<contours type="desirability" index="0" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>50</contourLevel>
+<contourLevel>60</contourLevel>
+<contourLevel>70</contourLevel>
+<contourLevel>80</contourLevel>
+<contourLevel>90</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0.15351</codedValue>
+<codedValue>-0.0403669</codedValue>
+<codedValue>0.091699</codedValue>
+</codedPoint>
+<axis index="0">-1</axis>
+<axis index="1">-1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+</graphSettings>
+</guiState>
+<designModel terms="10">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="C"/>
+<designTerm id="4" coef="1" term="AB"/>
+<designTerm id="5" coef="1" term="AC"/>
+<designTerm id="6" coef="1" term="BC"/>
+<designTerm id="7" coef="1" term="A^2"/>
+<designTerm id="8" coef="1" term="B^2"/>
+<designTerm id="9" coef="1" term="C^2"/>
+</designModel>
+<run stdNo="12" dsnId="13" runNo="1" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">9</facActual>
+<facActual id="C">55</facActual>
+<resVal id="1">50.0182656408264</resVal>
+</run>
+<run stdNo="17" dsnId="14" runNo="2" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">99.29977258226</resVal>
+</run>
+<run stdNo="13" dsnId="14" runNo="3" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">98.5950475272597</resVal>
+</run>
+<run stdNo="5" dsnId="6" runNo="4" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">20</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">5</facActual>
+<resVal id="1">50.8414648768521</resVal>
+</run>
+<run stdNo="2" dsnId="3" runNo="5" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">100</facActual>
+<facActual id="B">5</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">64.0312061285555</resVal>
+</run>
+<run stdNo="11" dsnId="12" runNo="6" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">5</facActual>
+<facActual id="C">55</facActual>
+<resVal id="1">56.4916482932897</resVal>
+</run>
+<run stdNo="8" dsnId="9" runNo="7" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">100</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">55</facActual>
+<resVal id="1">67.6137786748321</resVal>
+</run>
+<run stdNo="10" dsnId="11" runNo="8" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">9</facActual>
+<facActual id="C">5</facActual>
+<resVal id="1">43.7147212416875</resVal>
+</run>
+<run stdNo="15" dsnId="14" runNo="9" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">99.073467118751</resVal>
+</run>
+<run stdNo="1" dsnId="2" runNo="10" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">20</facActual>
+<facActual id="B">5</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">49.4586617220296</resVal>
+</run>
+<run stdNo="7" dsnId="8" runNo="11" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">20</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">55</facActual>
+<resVal id="1">62.6883523372006</resVal>
+</run>
+<run stdNo="14" dsnId="14" runNo="12" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">93.5965546793741</resVal>
+</run>
+<run stdNo="9" dsnId="10" runNo="13" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">5</facActual>
+<facActual id="C">5</facActual>
+<resVal id="1">49.0016263352528</resVal>
+</run>
+<run stdNo="3" dsnId="4" runNo="14" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">20</facActual>
+<facActual id="B">9</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">50.4990223548128</resVal>
+</run>
+<run stdNo="16" dsnId="14" runNo="15" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">60</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">96.6154498653016</resVal>
+</run>
+<run stdNo="6" dsnId="7" runNo="16" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">100</facActual>
+<facActual id="B">7</facActual>
+<facActual id="C">5</facActual>
+<resVal id="1">62.2714747634081</resVal>
+</run>
+<run stdNo="4" dsnId="5" runNo="17" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">100</facActual>
+<facActual id="B">9</facActual>
+<facActual id="C">30</facActual>
+<resVal id="1">57.5803356442653</resVal>
+</run>
+<responseModel id="1">
+<transform id="0" name="None"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="7">
+<equationTerm id="0" coef="97.4360583545893" term="Intercept"/>
+<equationTerm id="1" coef="4.75116174002074" term="A"/>
+<equationTerm id="2" coef="-2.14634969969194" term="B"/>
+<equationTerm id="3" coef="3.87284471611854" term="C"/>
+<equationTerm id="4" coef="-15.4982748034322" term="A^2"/>
+<equationTerm id="5" coef="-26.5454770887413" term="B^2"/>
+<equationTerm id="6" coef="-21.0840158880839" term="C^2"/>
+<equationTerm id="7" term="Curvature"/>
+</compModel>
+</responseModel>
+<optimization models="5">
+<criteria modType="Factor" id="1" goal="InRange" type="Numeric" target="60" limitLow="20" limitHigh="100" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Original"/>
+<criteria modType="Factor" id="2" goal="InRange" type="Numeric" target="7" limitLow="5" limitHigh="9" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Original"/>
+<criteria modType="Factor" id="3" goal="InRange" type="Numeric" target="30" limitLow="5" limitHigh="55" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Original"/>
+<criteria modType="Response" id="1" goal="Maximum" type="Numeric" target="100" hideOnReport="true" limitLow="90" limitHigh="100" weightLow="1" weightHigh="1" overlayLow="43.7147212416875" overlayHigh="Missing" importance="3" coding="Actual" scale="Original"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform"/>
+</optimization>
+<confirmationData alpha="0.05"/>
+<buildInfo noOfCenterPoints="5" buildTime="57"/>
+</DEXXMLDoc>
